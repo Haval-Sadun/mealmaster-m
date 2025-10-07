@@ -9,10 +9,9 @@ api = NinjaAPI(
     version="1.0.0",
     description="Backend API for the Recipe app",
 )
-#    exception_handlers={Exception: global_exception_handler},
-#Global is working fine 
+
 # Register global exception handler
-#api.add_exception_handler(Exception, global_exception_handler)
+api.add_exception_handler(Exception, global_exception_handler)
 
 api.add_router("/recipes/", recipe_router, tags=["Recipes"])
 api.add_router("/ingredients/", ingredient_router, tags=["Ingredients"])

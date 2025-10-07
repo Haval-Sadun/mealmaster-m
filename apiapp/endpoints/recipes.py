@@ -1,16 +1,16 @@
 from django.shortcuts import get_object_or_404
 from ninja.pagination import paginate, PageNumberPagination
-from ninja import Router, Schema
-from typing import List, TypeVar, Generic
+from ninja import Router
 
-from ..schemas.Image import ImageCreate, ImageRead
+from ..schemas.Image import ImageCreate
 from ..schemas.Ingredient import IngredientCreate, IngredientRead
 from ..schemas.Recipe import RecipeCreate, RecipeRead
 from ..utils.utils import success, error
+from ..utils.images import image_to_schema, save_image_to_recipe
 from ..schemas.responses import APISuccess, APIError
 from .images import image_to_schema
 from .ingredients import ingredient_to_schemas
-from ..models import Recipe
+from ..models import Recipe,Image
 
 router = Router()
 
@@ -131,12 +131,16 @@ def delete_recipe(request, recipe_id: int):
 @router.post("/{recipe_id}/images", response={201: APISuccess, 400: APIError, 500: APIError})
 def add_image(request, recipe_id: int, image: ImageCreate):
     recipe = get_object_or_404(Recipe, id=recipe_id)
+
+    if not image.url and not image.filename:
+        return error("Either 'filename' or 'url' must be provided", 400)
+    
     try:
-        img = recipe.images.create(**image.dict())
+        img = save_image_to_recipe(recipe=recipe, filename=image.filename, content_type=image.content_type or "image/jpeg",file_bytes=image.filebytes)
         schema = image_to_schema(request, img)
         return success(schema.dict(), 201)
     except Exception as e:
-        return error("Error adding image", 500, details=str(e))
+        return error("Error adding image metadata", 500, details=str(e))
 
 @router.get("/{recipe_id}/images", response={200: APISuccess, 404: APIError})
 def list_images_for_recipe(request, recipe_id: int):

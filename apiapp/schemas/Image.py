@@ -1,4 +1,3 @@
-# --- Image Schemas ---
 from ninja import Schema
 from typing import Optional
 
@@ -11,7 +10,10 @@ class ImageBase(Schema):
 # Schema for creation (upload) – frontend just sends a file,
 # so you don't need fields here (the file comes as UploadedFile)
 class ImageCreate(Schema):
-    pass
+    filename: str = None  
+    filebytes: bytes
+    content_type: Optional[str] = "image/jpeg"  
+
 
 # Schema for reading – used when returning to clients
 class ImageRead(ImageBase):

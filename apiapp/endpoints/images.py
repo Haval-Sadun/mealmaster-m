@@ -6,35 +6,12 @@ from ..models import Image, Recipe
 from ..schemas.Image import ImageRead, ImageUpdate
 from PIL import Image as PILImage
 from ..utils.utils import success, error
+from ..utils.images import save_image_to_recipe, image_to_schema, MAX_UPLOAD_BYTES
 from ..schemas.responses import APISuccess, APIError
 from django.http import HttpResponse
 import base64
 
 router = Router()
-
-MAX_UPLOAD_BYTES = 2 * 1024 * 1024  # 10 MB max file size
-
-
-def make_thumbnail(image_bytes, size=(300, 300), fmt="JPEG"):
-    """Return thumbnail bytes and content_type"""
-    img = PILImage.open(io.BytesIO(image_bytes))
-    img.thumbnail(size)
-    out = io.BytesIO()
-    img.save(out, fmt)
-    return out.getvalue(), f"image/{fmt.lower()}"
-
-
-def image_to_schema(request, img: Image) -> ImageRead:
-    """Helper to convert Image model to Pydantic schema with URLs"""
-    base_url = request.build_absolute_uri
-    return ImageRead(
-        id=img.id,
-        filename=img.filename,
-        size=img.size,
-        content_type=img.content_type, 
-        url=base_url(f"/api/images/{img.id}/raw/") if img.data else None,
-        thumbnail_url=base_url(f"/api/images/{img.id}/thumb/") if img.thumbnail else None,
-    )
 
 
 # List all images
@@ -116,25 +93,16 @@ def upload_image(request, recipe_id: int, file: UploadedFile = File(...)):
         return error({"error": "File too large"}, 413)
 
     try:
-        thumb_bytes, thumb_ct = make_thumbnail(file_bytes, size=(400, 400))
-    except Exception:
-        thumb_bytes, thumb_ct = None, None
-
-    try:
-        img = Image.objects.create(
-            recipe=recipe,
+        img = save_image_to_recipe(
+            recipe,
             filename=file.name,
-            content_type=file.content_type or "application/octet-stream",
-            size=size,
-            data=file_bytes,
-            thumbnail=thumb_bytes,
-            thumbnail_content_type=thumb_ct,
+            content_type=file.content_type,
+            file_bytes=file_bytes,
         )
+        schema = image_to_schema(request, img)
+        return success(schema.dict(), 201)
     except Exception as e:
-        return error("Database error while saving image", 500, details=str(e))
-    
-    schema = image_to_schema(request, img)
-    return success(schema.dict(), 201)
+        return error("Failed to save image", 500, details=str(e))
 
 
 # Update image metadata

@@ -22,5 +22,3 @@ api.add_router("/images/", image_router, tags=["Images"])
 @api.get("/health", tags=["System"])
 def health_check(request):
     return {"status": "ok", "message": "API running"}
-
-## new comment 

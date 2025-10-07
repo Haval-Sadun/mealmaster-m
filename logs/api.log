@@ -1,0 +1,104 @@
+[2025-10-07 10:37:52,123] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 10:37:52,123] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 10:38:44,779] INFO django.utils.autoreload - C:\Workspace\Tests\mealmaster\apiapp\utils\utils.py changed, reloading.
+[2025-10-07 10:38:44,779] INFO django.utils.autoreload - C:\Workspace\Tests\mealmaster\apiapp\utils\utils.py changed, reloading.
+[2025-10-07 10:38:45,278] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 10:38:45,278] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 10:39:29,783] INFO django.utils.autoreload - C:\Workspace\Tests\mealmaster\apiapp\utils\exceptions.py changed, reloading.
+[2025-10-07 10:39:29,783] INFO django.utils.autoreload - C:\Workspace\Tests\mealmaster\apiapp\utils\exceptions.py changed, reloading.
+[2025-10-07 10:39:30,281] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 10:39:30,281] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 10:40:46,530] INFO django.utils.autoreload - C:\Workspace\Tests\mealmaster\apiapp\api.py changed, reloading.
+[2025-10-07 10:40:46,530] INFO django.utils.autoreload - C:\Workspace\Tests\mealmaster\apiapp\api.py changed, reloading.
+[2025-10-07 10:40:47,034] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 10:40:47,034] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 10:40:50,581] INFO django.server - "GET / HTTP/1.1" 302 0
+[2025-10-07 10:40:50,581] INFO django.server - "GET / HTTP/1.1" 302 0
+[2025-10-07 10:40:50,595] INFO django.server - "GET /api/docs HTTP/1.1" 200 985
+[2025-10-07 10:40:50,595] INFO django.server - "GET /api/docs HTTP/1.1" 200 985
+[2025-10-07 10:40:50,729] INFO django.server - "GET /api/openapi.json HTTP/1.1" 200 16416
+[2025-10-07 10:40:50,729] INFO django.server - "GET /api/openapi.json HTTP/1.1" 200 16416
+[2025-10-07 10:41:08,133] INFO django.server - "POST /api/images/recipes/4/images/ HTTP/1.1" 201 241
+[2025-10-07 10:41:08,133] INFO django.server - "POST /api/images/recipes/4/images/ HTTP/1.1" 201 241
+[2025-10-07 10:41:35,814] INFO django.server - "GET /api/images/recipes/4/images/ HTTP/1.1" 200 400
+[2025-10-07 10:41:35,814] INFO django.server - "GET /api/images/recipes/4/images/ HTTP/1.1" 200 400
+[2025-10-07 10:41:51,024] INFO django.server - "GET /api/images/4/thumb/ HTTP/1.1" 200 6289
+[2025-10-07 10:41:51,024] INFO django.server - "GET /api/images/4/thumb/ HTTP/1.1" 200 6289
+[2025-10-07 10:42:41,988] INFO django.server - "GET /api/recipes/1 HTTP/1.1" 200 318
+[2025-10-07 10:42:41,988] INFO django.server - "GET /api/recipes/1 HTTP/1.1" 200 318
+[2025-10-07 10:45:52,257] INFO django.utils.autoreload - C:\Workspace\Tests\mealmaster\apiapp\api.py changed, reloading.
+[2025-10-07 10:45:52,257] INFO django.utils.autoreload - C:\Workspace\Tests\mealmaster\apiapp\api.py changed, reloading.
+[2025-10-07 10:45:52,761] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 10:45:52,761] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:10:06,079] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:10:06,079] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:16:56,430] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:16:56,430] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:17:31,984] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:17:31,984] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:20:19,535] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:20:19,535] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:21:00,901] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:21:00,901] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:21:34,656] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:21:34,656] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:22:35,250] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:22:35,250] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:23:45,374] INFO django.utils.autoreload - C:\Workspace\Tests\mealmaster\apiapp\endpoints\recipes.py changed, reloading.
+[2025-10-07 13:23:45,374] INFO django.utils.autoreload - C:\Workspace\Tests\mealmaster\apiapp\endpoints\recipes.py changed, reloading.
+[2025-10-07 13:23:45,858] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:23:45,858] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:26:37,304] INFO django.utils.autoreload - C:\Workspace\Tests\mealmaster\apiapp\endpoints\recipes.py changed, reloading.
+[2025-10-07 13:26:37,304] INFO django.utils.autoreload - C:\Workspace\Tests\mealmaster\apiapp\endpoints\recipes.py changed, reloading.
+[2025-10-07 13:26:37,822] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:26:37,822] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:26:45,859] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:26:45,859] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:30:04,127] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:30:04,127] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:30:10,042] INFO django.server - "GET /api/docs HTTP/1.1" 200 985
+[2025-10-07 13:30:10,042] INFO django.server - "GET /api/docs HTTP/1.1" 200 985
+[2025-10-07 13:30:10,164] INFO django.server - "GET /api/openapi.json HTTP/1.1" 200 17587
+[2025-10-07 13:30:10,164] INFO django.server - "GET /api/openapi.json HTTP/1.1" 200 17587
+[2025-10-07 13:30:15,798] INFO django.server - "GET /api/health HTTP/1.1" 200 42
+[2025-10-07 13:30:15,798] INFO django.server - "GET /api/health HTTP/1.1" 200 42
+[2025-10-07 13:30:25,144] INFO django.server - "GET /api/recipes/ HTTP/1.1" 200 2075
+[2025-10-07 13:30:25,144] INFO django.server - "GET /api/recipes/ HTTP/1.1" 200 2075
+[2025-10-07 13:34:09,470] INFO django.utils.autoreload - C:\Workspace\Tests\mealmaster\apiapp\endpoints\recipes.py changed, reloading.
+[2025-10-07 13:34:09,470] INFO django.utils.autoreload - C:\Workspace\Tests\mealmaster\apiapp\endpoints\recipes.py changed, reloading.
+[2025-10-07 13:34:10,031] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:34:10,031] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:34:14,625] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:34:14,625] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:34:19,331] INFO django.server - "GET /api/docs HTTP/1.1" 200 985
+[2025-10-07 13:34:19,331] INFO django.server - "GET /api/docs HTTP/1.1" 200 985
+[2025-10-07 13:34:19,442] INFO django.server - "GET /api/openapi.json HTTP/1.1" 200 17824
+[2025-10-07 13:34:19,442] INFO django.server - "GET /api/openapi.json HTTP/1.1" 200 17824
+[2025-10-07 13:34:40,747] INFO django.server - "GET /api/recipes/?page=1&page_size=10 HTTP/1.1" 200 2144
+[2025-10-07 13:34:40,747] INFO django.server - "GET /api/recipes/?page=1&page_size=10 HTTP/1.1" 200 2144
+[2025-10-07 13:34:50,541] INFO django.server - "GET /api/recipes/?page=2&page_size=10 HTTP/1.1" 200 102
+[2025-10-07 13:34:50,541] INFO django.server - "GET /api/recipes/?page=2&page_size=10 HTTP/1.1" 200 102
+[2025-10-07 13:35:09,574] INFO django.server - "GET /api/recipes/?page=24&page_size=10 HTTP/1.1" 200 103
+[2025-10-07 13:35:09,574] INFO django.server - "GET /api/recipes/?page=24&page_size=10 HTTP/1.1" 200 103
+[2025-10-07 13:37:40,076] INFO django.utils.autoreload - C:\Workspace\Tests\mealmaster\apiapp\endpoints\recipes.py changed, reloading.
+[2025-10-07 13:37:40,076] INFO django.utils.autoreload - C:\Workspace\Tests\mealmaster\apiapp\endpoints\recipes.py changed, reloading.
+[2025-10-07 13:37:40,608] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:37:40,608] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:40:00,400] INFO django.utils.autoreload - C:\Workspace\Tests\mealmaster\apiapp\endpoints\images.py changed, reloading.
+[2025-10-07 13:40:00,400] INFO django.utils.autoreload - C:\Workspace\Tests\mealmaster\apiapp\endpoints\images.py changed, reloading.
+[2025-10-07 13:40:00,922] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:40:00,922] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:43:33,359] INFO django.utils.autoreload - C:\Workspace\Tests\mealmaster\apiapp\endpoints\recipes.py changed, reloading.
+[2025-10-07 13:43:33,359] INFO django.utils.autoreload - C:\Workspace\Tests\mealmaster\apiapp\endpoints\recipes.py changed, reloading.
+[2025-10-07 13:43:33,923] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:43:33,923] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:43:40,619] INFO django.server - "POST /api/recipes/ HTTP/1.1" 201 322
+[2025-10-07 13:43:40,619] INFO django.server - "POST /api/recipes/ HTTP/1.1" 201 322
+[2025-10-07 13:45:51,820] INFO django.utils.autoreload - C:\Workspace\Tests\mealmaster\apiapp\endpoints\recipes.py changed, reloading.
+[2025-10-07 13:45:51,820] INFO django.utils.autoreload - C:\Workspace\Tests\mealmaster\apiapp\endpoints\recipes.py changed, reloading.
+[2025-10-07 13:45:52,362] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 13:45:52,362] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 14:03:03,060] INFO django.utils.autoreload - C:\Workspace\Tests\mealmaster\apiapp\endpoints\recipes.py changed, reloading.
+[2025-10-07 14:03:03,060] INFO django.utils.autoreload - C:\Workspace\Tests\mealmaster\apiapp\endpoints\recipes.py changed, reloading.
+[2025-10-07 14:03:03,594] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 14:03:03,594] INFO django.utils.autoreload - Watching for file changes with StatReloader

@@ -174,3 +174,13 @@
 [2025-10-07 18:35:14,862] INFO django.utils.autoreload - Watching for file changes with StatReloader
 [2025-10-07 18:35:51,081] INFO django.utils.autoreload - Watching for file changes with StatReloader
 [2025-10-07 18:35:51,081] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 18:50:10,738] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 18:50:10,738] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-07 18:50:15,354] INFO django.server - "GET / HTTP/1.1" 302 0
+[2025-10-07 18:50:15,354] INFO django.server - "GET / HTTP/1.1" 302 0
+[2025-10-07 18:50:15,367] INFO django.server - "GET /api/docs HTTP/1.1" 200 985
+[2025-10-07 18:50:15,367] INFO django.server - "GET /api/docs HTTP/1.1" 200 985
+[2025-10-07 18:50:15,607] INFO django.server - "GET /api/openapi.json HTTP/1.1" 200 18318
+[2025-10-07 18:50:15,607] INFO django.server - "GET /api/openapi.json HTTP/1.1" 200 18318
+[2025-10-07 18:50:21,817] INFO django.server - "GET /api/enums/ HTTP/1.1" 200 704
+[2025-10-07 18:50:21,817] INFO django.server - "GET /api/enums/ HTTP/1.1" 200 704

@@ -184,3 +184,33 @@
 [2025-10-07 18:50:15,607] INFO django.server - "GET /api/openapi.json HTTP/1.1" 200 18318
 [2025-10-07 18:50:21,817] INFO django.server - "GET /api/enums/ HTTP/1.1" 200 704
 [2025-10-07 18:50:21,817] INFO django.server - "GET /api/enums/ HTTP/1.1" 200 704
+[2025-10-10 14:26:15,385] WARNING apiapp.utils.utils - API Warning: Error generating recipe schemas | Details: relation "apiapp_recipe" does not exist
+LINE 1: ...ating", "apiapp_recipe"."number_of_servings" FROM "apiapp_re...
+                                                             ^
+
+[2025-10-10 14:26:15,388] ERROR django.request - Internal Server Error: /api/recipes/
+[2025-10-10 14:26:15,388] ERROR django.request - Internal Server Error: /api/recipes/
+[2025-10-10 14:26:49,769] WARNING apiapp.utils.utils - API Warning: Error creating recipe | Details: relation "apiapp_recipe" does not exist
+LINE 1: INSERT INTO "apiapp_recipe" ("name", "description", "instruc...
+                    ^
+
+[2025-10-10 14:26:49,772] ERROR django.request - Internal Server Error: /api/recipes/
+[2025-10-10 14:26:49,772] ERROR django.request - Internal Server Error: /api/recipes/
+[2025-10-10 14:27:04,968] WARNING django.request - Bad Request: /api/recipes/
+[2025-10-10 14:27:04,968] WARNING django.request - Bad Request: /api/recipes/
+[2025-10-10 14:27:45,242] WARNING django.request - Bad Request: /api/recipes/
+[2025-10-10 14:27:45,242] WARNING django.request - Bad Request: /api/recipes/
+[2025-10-10 14:27:56,554] WARNING django.request - Bad Request: /api/recipes/
+[2025-10-10 14:27:56,554] WARNING django.request - Bad Request: /api/recipes/
+[2025-10-10 14:29:59,972] WARNING apiapp.utils.utils - API Warning: Error creating recipe | Details: relation "apiapp_recipe" does not exist
+LINE 1: INSERT INTO "apiapp_recipe" ("name", "description", "instruc...
+                    ^
+
+[2025-10-10 14:29:59,975] ERROR django.request - Internal Server Error: /api/recipes/
+[2025-10-10 14:29:59,975] ERROR django.request - Internal Server Error: /api/recipes/
+[2025-10-10 14:30:32,349] WARNING apiapp.utils.utils - API Warning: Error creating recipe | Details: relation "apiapp_recipe" does not exist
+LINE 1: INSERT INTO "apiapp_recipe" ("name", "description", "instruc...
+                    ^
+
+[2025-10-10 14:30:32,352] ERROR django.request - Internal Server Error: /api/recipes/
+[2025-10-10 14:30:32,352] ERROR django.request - Internal Server Error: /api/recipes/

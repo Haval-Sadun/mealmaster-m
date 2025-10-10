@@ -83,3 +83,23 @@ class Image(models.Model):
 
     def __hash__(self):
         return hash((self.image_name, self.image_url, self.recipe_id))
+
+
+class MealPlan(models.Model):
+    #user = models.ForeignKey(User, on_delete=models.CASCADE)  # Uncomment if User model is available  
+    start_date = models.DateField()
+    end_date = models.DateField()
+    active = models.BooleanField(default=True)
+
+    def __str__(self):
+        return f"plan for {self.start_date} → {self.end_date}"
+    
+class MealPlanEntry(models.Model):
+    meal_plan = models.ForeignKey(MealPlan, related_name='entries', on_delete=models.CASCADE)
+    recipe = models.ForeignKey(Recipe, on_delete=models.CASCADE)
+    date = models.DateField()
+    meal_type = models.IntegerField(choices=enum_choices(MealType))
+    number_of_people = models.PositiveIntegerField(default=1)
+
+    def __str__(self):
+        return f"{self.recipe.name} on {self.date} ({self.get_meal_type_display()})"

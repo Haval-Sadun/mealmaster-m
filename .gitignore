@@ -1,2 +1,8 @@
 .env
-logs/api.log
+logs/
+.venv/
+# Ignore all __pycache__ folders
+__pycache__/
+
+# Ignore all .pyc files anywhere
+*.pyc

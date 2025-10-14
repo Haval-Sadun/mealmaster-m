@@ -25,5 +25,38 @@ services:
     ports:
       - "5432:5432"
 
+  keycloak-db:
+    image: postgres:16
+    restart: always
+    environment:
+      POSTGRES_DB: keycloak
+      POSTGRES_USER: havalo
+      POSTGRES_PASSWORD: admin
+    volumes:
+      - keycloak_data:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"
+
+  keycloak:
+    image: quay.io/keycloak/keycloak:26.4.0
+    command: start-dev
+    environment:
+      KC_BOOTSTRAP_ADMIN_USERNAME: admin
+      KC_BOOTSTRAP_ADMIN_PASSWORD: admin
+      KC_DB: postgres
+      KC_DB_URL_HOST: keycloak-db
+      KC_DB_URL_PORT: 5432
+      KC_HOSTNAME: localhost
+      KC_DB_USERNAME: havalo
+      KC_DB_PASSWORD: admin
+      KC_HTTP_RELATIVE_PATH: /
+    ports:
+      - "8080:8080"
+    depends_on:
+      - keycloak-db
+
 volumes:
   postgres_data:
+  keycloak_data:
+
+      #KC_DB_URL: jdbc:postgresql://keycloak-db:5433/keycloak

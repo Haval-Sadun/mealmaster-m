@@ -634,3 +634,5 @@ LINE 1: INSERT INTO "apiapp_mealplan" ("start_date", "end_date", "ac...
 
 [2025-10-10 20:46:45,551] ERROR django.request - Internal Server Error: /api/mealplans/
 [2025-10-10 20:46:45,551] ERROR django.request - Internal Server Error: /api/mealplans/
+[2025-10-13 14:40:06,536] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-13 14:40:06,536] INFO django.utils.autoreload - Watching for file changes with StatReloader

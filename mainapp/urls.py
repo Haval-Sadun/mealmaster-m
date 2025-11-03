@@ -21,6 +21,7 @@ from apiapp.api import api
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('accounts/', include('allauth.urls')),
     path("api/", api.urls),
     path("", lambda request: redirect("api/docs")),
 ]

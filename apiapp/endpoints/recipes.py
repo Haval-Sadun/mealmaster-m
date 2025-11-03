@@ -11,6 +11,8 @@ from ..schemas.responses import APISuccess, APIError
 from .images import image_to_schema
 from .ingredients import ingredient_to_schemas
 from ..models import Recipe,Image
+from ..auth import KeycloakBearer
+from ..models import UserProfile
 
 router = Router()
 
@@ -49,9 +51,12 @@ def recipe_to_schema(request, recipe):
         # ]
 
 #------------ Recipe CRUD --------------------
-@router.post("/", response={201: APISuccess, 400: APIError, 500: APIError})
+@router.post("/", response={201: APISuccess, 400: APIError, 500: APIError},auth=KeycloakBearer())
 def create_recipe(request, data: RecipeCreate):
     try:
+        user: UserProfile = request.auth
+        print("User roles:", user.role, "User:", user.username)
+
         recipe = Recipe.objects.create(**data.dict(exclude={"ingredients", "images"}))
 
         # Add ingredients

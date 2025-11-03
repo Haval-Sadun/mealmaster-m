@@ -1,6 +1,7 @@
 from django.db import models
 from .constants import DietType, MealType, MealCategory, DifficultyLevel, MeasurementUnit
 from django.utils import timezone
+from uuid import uuid4
 
 def enum_choices(enum_cls):
     return [(member.value, member.name.capitalize().replace("_", " ")) for member in enum_cls]
@@ -103,3 +104,42 @@ class MealPlanEntry(models.Model):
 
     def __str__(self):
         return f"{self.recipe.name} on {self.date} ({self.get_meal_type_display()})"
+    
+
+class UserProfile(models.Model):
+    ROLE_CHOICES = [
+        ("user", "User"),
+        ("cook", "Cook"),
+    ]
+
+    id = models.UUIDField(primary_key=True, default=uuid4, editable=False)
+    keycloak_id = models.UUIDField(unique=True, db_index=True)  # Keycloak 'sub' claim
+    username = models.CharField(max_length=255, db_index=True)
+    email = models.EmailField(unique=True, null=True, blank=True)
+    role = models.CharField(
+        max_length=50,
+        choices=ROLE_CHOICES,
+        default="user",
+        help_text="User role assigned based on Keycloak realm roles"
+    )
+    # Optional: store the last roles array from Keycloak token
+    last_realm_roles = models.JSONField(default=list, blank=True, null=True)
+
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        verbose_name = "User Profile"
+        verbose_name_plural = "User Profiles"
+        ordering = ["username"]
+
+    def __str__(self):
+        return f"{self.username} ({self.role})"
+
+    @property
+    def is_cook(self):
+        return self.role == "cook"
+
+    @property
+    def is_user(self):
+        return self.role == "user"

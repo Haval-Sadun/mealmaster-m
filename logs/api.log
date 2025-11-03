@@ -636,3 +636,1458 @@ LINE 1: INSERT INTO "apiapp_mealplan" ("start_date", "end_date", "ac...
 [2025-10-10 20:46:45,551] ERROR django.request - Internal Server Error: /api/mealplans/
 [2025-10-13 14:40:06,536] INFO django.utils.autoreload - Watching for file changes with StatReloader
 [2025-10-13 14:40:06,536] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-10-26 00:41:29,130] WARNING django.request - Not Found: /accounts/login/
+[2025-10-26 00:41:29,130] WARNING django.request - Not Found: /accounts/login/
+[2025-10-26 00:41:29,182] WARNING django.request - Not Found: /favicon.ico
+[2025-10-26 00:41:29,182] WARNING django.request - Not Found: /favicon.ico
+[2025-10-26 00:41:39,701] WARNING django.request - Not Found: /accounts
+[2025-10-26 00:41:39,701] WARNING django.request - Not Found: /accounts
+[2025-10-26 00:41:45,896] WARNING django.request - Not Found: /accounts/
+[2025-10-26 00:41:45,896] WARNING django.request - Not Found: /accounts/
+[2025-10-26 01:13:03,923] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 01:13:03,923] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 01:13:03,923] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 01:13:03,923] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 01:13:03,925] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 01:13:03,925] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 01:13:03,925] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 01:13:03,925] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 01:13:03,928] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 01:13:03,928] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 01:13:03,932] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 01:13:03,932] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 01:13:03,942] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 01:13:03,942] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 01:13:12,893] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 01:13:12,893] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 01:13:12,894] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 01:13:12,895] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 01:13:12,895] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 01:13:12,894] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 01:13:12,896] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 01:13:12,895] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 01:13:12,895] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 01:13:12,898] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 01:13:12,896] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 01:13:12,898] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 01:13:12,933] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 01:13:12,933] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 01:13:12,935] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 01:13:12,935] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 01:13:12,935] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 01:13:12,937] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 01:13:12,935] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 01:13:12,937] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 01:13:22,128] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 01:13:22,129] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 01:13:22,130] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 01:13:22,128] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 01:13:22,130] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 01:13:22,130] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 01:13:22,129] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 01:13:22,131] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 01:13:22,130] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 01:13:22,130] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 01:13:22,130] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 01:13:22,131] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 01:13:22,168] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 01:13:22,168] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 01:13:22,177] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 01:13:22,177] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 01:13:22,178] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 01:13:22,178] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 01:13:22,178] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 01:13:22,178] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 01:13:27,514] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 01:13:27,514] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 01:13:27,520] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 01:13:27,520] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 01:13:27,522] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 01:13:27,523] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 01:13:27,523] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 01:13:27,523] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 01:13:27,522] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 01:13:27,523] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 01:13:27,523] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 01:13:27,523] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 01:13:27,551] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 01:13:27,551] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 01:13:27,552] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 01:13:27,552] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 01:13:27,552] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 01:13:27,552] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 01:13:59,180] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 01:13:59,180] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 01:13:59,220] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 01:13:59,220] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 01:13:59,225] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 01:13:59,226] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 01:13:59,225] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 01:13:59,226] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 01:13:59,226] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 01:13:59,227] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 01:13:59,226] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 01:13:59,227] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 01:13:59,251] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 01:13:59,252] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 01:13:59,251] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 01:13:59,252] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 01:26:27,399] ERROR django.request - Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "account_emailaddress" does not exist
+LINE 1: SELECT 1 AS "a" FROM "account_emailaddress" WHERE ("account_...
+                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/decorators.py", line 12, in wrap
+    resp = function(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/debug.py", line 143, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/account/views.py", line 95, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/account/mixins.py", line 53, in dispatch
+    response = super().dispatch(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/account/mixins.py", line 82, in post
+    response = self.form_valid(form)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/account/views.py", line 108, in form_valid
+    return form.login(self.request, redirect_url=redirect_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/account/forms.py", line 230, in login
+    return self._login_with_password(request, redirect_url, credentials)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/account/forms.py", line 252, in _login_with_password
+    ret = flows.login.perform_password_login(request, credentials, login)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/account/internal/flows/login.py", line 83, in perform_password_login
+    return perform_login(request, login)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/account/internal/flows/login.py", line 93, in perform_login
+    return resume_login(request, login)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/account/internal/flows/login.py", line 102, in resume_login
+    response = ctrl.handle()
+               ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/account/stages.py", line 120, in handle
+    response, cont = stage.handle()
+                     ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/account/stages.py", line 154, in handle
+    if not has_verified_email(login.user, login.email) and login.signup:
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/account/utils.py", line 78, in has_verified_email
+    ret = EmailAddress.objects.filter(user=user, verified=True).exists()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 1288, in exists
+    return self.query.has_results(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/query.py", line 660, in has_results
+    return compiler.has_results()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1542, in has_results
+    return bool(self.execute_sql(SINGLE))
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "account_emailaddress" does not exist
+LINE 1: SELECT 1 AS "a" FROM "account_emailaddress" WHERE ("account_...
+                             ^
+
+[2025-10-26 01:26:27,399] ERROR django.request - Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "account_emailaddress" does not exist
+LINE 1: SELECT 1 AS "a" FROM "account_emailaddress" WHERE ("account_...
+                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/decorators.py", line 12, in wrap
+    resp = function(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/debug.py", line 143, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/account/views.py", line 95, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/account/mixins.py", line 53, in dispatch
+    response = super().dispatch(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/account/mixins.py", line 82, in post
+    response = self.form_valid(form)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/account/views.py", line 108, in form_valid
+    return form.login(self.request, redirect_url=redirect_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/account/forms.py", line 230, in login
+    return self._login_with_password(request, redirect_url, credentials)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/account/forms.py", line 252, in _login_with_password
+    ret = flows.login.perform_password_login(request, credentials, login)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/account/internal/flows/login.py", line 83, in perform_password_login
+    return perform_login(request, login)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/account/internal/flows/login.py", line 93, in perform_login
+    return resume_login(request, login)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/account/internal/flows/login.py", line 102, in resume_login
+    response = ctrl.handle()
+               ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/account/stages.py", line 120, in handle
+    response, cont = stage.handle()
+                     ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/account/stages.py", line 154, in handle
+    if not has_verified_email(login.user, login.email) and login.signup:
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/account/utils.py", line 78, in has_verified_email
+    ret = EmailAddress.objects.filter(user=user, verified=True).exists()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 1288, in exists
+    return self.query.has_results(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/query.py", line 660, in has_results
+    return compiler.has_results()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1542, in has_results
+    return bool(self.execute_sql(SINGLE))
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "account_emailaddress" does not exist
+LINE 1: SELECT 1 AS "a" FROM "account_emailaddress" WHERE ("account_...
+                             ^
+
+[2025-10-26 19:09:45,777] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 19:09:45,777] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 19:09:45,782] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 19:09:45,783] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 19:09:45,782] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 19:09:45,783] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 19:09:45,786] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:45,786] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 19:09:45,786] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:45,786] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 19:09:45,791] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 19:09:45,791] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 19:09:45,806] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 19:09:45,806] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 19:09:45,823] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 19:09:45,824] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:45,823] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 19:09:45,824] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:45,825] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 19:09:45,825] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 19:09:45,854] WARNING django.request - Not Found: /favicon.ico
+[2025-10-26 19:09:45,854] WARNING django.request - Not Found: /favicon.ico
+[2025-10-26 19:09:52,340] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 19:09:52,340] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 19:09:52,342] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 19:09:52,343] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:52,342] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 19:09:52,343] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 19:09:52,343] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:52,345] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 19:09:52,343] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 19:09:52,345] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 19:09:52,351] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 19:09:52,351] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 19:09:52,367] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:52,368] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 19:09:52,367] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:52,368] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 19:09:53,597] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 19:09:53,597] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 19:09:53,597] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 19:09:53,597] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 19:09:53,598] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:53,598] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 19:09:53,598] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 19:09:53,597] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 19:09:53,597] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 19:09:53,598] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:53,598] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 19:09:53,598] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 19:09:53,634] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 19:09:53,634] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 19:09:53,636] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 19:09:53,636] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 19:09:53,638] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 19:09:53,638] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:53,638] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 19:09:53,638] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:54,659] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 19:09:54,659] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 19:09:54,661] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:54,661] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 19:09:54,662] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 19:09:54,661] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:54,662] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 19:09:54,662] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 19:09:54,661] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 19:09:54,662] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 19:09:54,662] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 19:09:54,662] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 19:09:54,688] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 19:09:54,688] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 19:09:54,699] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:54,700] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 19:09:54,699] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:54,700] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 19:09:54,700] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 19:09:54,700] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 19:09:56,142] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 19:09:56,143] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 19:09:56,142] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 19:09:56,143] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 19:09:56,143] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 19:09:56,144] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:56,143] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 19:09:56,144] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 19:09:56,143] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 19:09:56,143] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 19:09:56,144] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:56,144] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 19:09:56,179] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 19:09:56,179] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:56,180] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 19:09:56,179] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 19:09:56,179] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:56,180] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 19:09:57,053] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:57,053] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 19:09:57,053] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:57,054] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 19:09:57,053] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 19:09:57,054] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 19:09:57,055] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 19:09:57,054] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 19:09:57,056] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 19:09:57,054] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 19:09:57,055] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 19:09:57,056] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 19:09:57,093] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 19:09:57,094] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:57,094] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 19:09:57,094] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 19:09:57,094] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 19:09:57,094] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:57,093] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 19:09:57,094] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 19:09:57,811] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 19:09:57,811] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 19:09:57,841] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 19:09:57,842] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 19:09:57,841] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 19:09:57,842] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 19:09:57,844] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 19:09:57,845] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:57,844] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 19:09:57,845] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:57,847] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 19:09:57,847] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 19:09:57,884] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 19:09:57,884] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 19:09:57,885] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:57,884] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 19:09:57,885] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 19:09:57,884] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 19:09:57,885] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:57,885] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 19:09:59,822] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 19:09:59,822] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 19:09:59,852] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:59,852] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 19:09:59,852] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:59,853] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 19:09:59,853] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 19:09:59,852] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 19:09:59,853] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 19:09:59,853] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 19:09:59,853] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 19:09:59,853] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 19:09:59,888] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 19:09:59,888] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 19:09:59,890] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:59,890] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 19:09:59,890] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 19:09:59,890] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 19:09:59,890] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 19:09:59,890] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:08:43,707] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 20:08:43,707] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 20:08:43,711] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 20:08:43,711] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 20:08:43,722] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 20:08:43,722] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 20:08:43,724] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:08:43,724] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:08:43,726] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:08:43,727] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 20:08:43,726] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:08:43,727] WARNING django.request - Not Found: /static/admin/css/login.css
+[2025-10-26 20:08:43,738] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 20:08:43,738] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 20:08:47,803] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:08:47,803] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:08:47,805] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 20:08:47,805] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 20:08:47,806] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 20:08:47,806] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 20:08:47,807] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-10-26 20:08:47,807] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 20:08:47,807] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-10-26 20:08:47,807] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 20:08:47,810] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:08:47,810] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:08:47,836] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-10-26 20:08:47,836] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 20:08:47,836] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:08:47,836] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-10-26 20:08:47,836] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 20:08:47,836] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:08:58,062] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 20:08:58,062] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 20:08:58,062] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 20:08:58,062] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 20:08:58,072] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 20:08:58,072] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:08:58,072] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-10-26 20:08:58,072] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:08:58,072] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 20:08:58,072] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:08:58,072] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-10-26 20:08:58,072] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:08:58,086] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 20:08:58,086] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 20:08:59,669] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:08:59,669] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:08:59,670] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 20:08:59,670] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 20:08:59,671] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 20:08:59,672] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-10-26 20:08:59,671] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 20:08:59,673] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:08:59,672] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-10-26 20:08:59,675] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 20:08:59,673] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:08:59,675] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 20:08:59,696] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 20:08:59,696] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 20:08:59,711] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:08:59,711] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:08:59,711] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:08:59,711] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:08:59,713] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-10-26 20:08:59,713] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-10-26 20:09:02,156] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 20:09:02,156] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 20:09:02,160] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 20:09:02,160] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 20:09:02,161] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-10-26 20:09:02,162] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:09:02,161] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-10-26 20:09:02,163] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 20:09:02,162] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:09:02,163] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 20:09:02,165] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:09:02,165] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:09:02,191] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:09:02,191] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:09:02,192] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 20:09:02,193] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-10-26 20:09:02,192] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 20:09:02,193] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-10-26 20:09:51,603] WARNING django.request - Not Found: /accounts/profile/
+[2025-10-26 20:09:51,603] WARNING django.request - Not Found: /accounts/profile/
+[2025-10-26 20:11:52,098] WARNING django.request - Not Found: /accounts/profile/
+[2025-10-26 20:11:52,098] WARNING django.request - Not Found: /accounts/profile/
+[2025-10-26 20:12:14,908] WARNING django.request - Not Found: /accounts/profile/
+[2025-10-26 20:12:14,908] WARNING django.request - Not Found: /accounts/profile/
+[2025-10-26 20:43:10,534] ERROR django.request - Internal Server Error: /accounts/email/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "account_emailaddress" does not exist
+LINE 1: SELECT 1 AS "a" FROM "account_emailaddress" WHERE ("account_...
+                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/decorators.py", line 12, in wrap
+    resp = function(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/account/views.py", line 360, in dispatch
+    flows.manage_email.sync_user_email_address(request.user)
+  File "/usr/local/lib/python3.12/site-packages/allauth/account/internal/flows/manage_email.py", line 241, in sync_user_email_address
+    return sync_email_address(user, email)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/account/internal/flows/manage_email.py", line 246, in sync_email_address
+    if not EmailAddress.objects.filter(user_id=user.pk, email=email).exists():
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 1288, in exists
+    return self.query.has_results(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/query.py", line 660, in has_results
+    return compiler.has_results()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1542, in has_results
+    return bool(self.execute_sql(SINGLE))
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "account_emailaddress" does not exist
+LINE 1: SELECT 1 AS "a" FROM "account_emailaddress" WHERE ("account_...
+                             ^
+
+[2025-10-26 20:43:10,534] ERROR django.request - Internal Server Error: /accounts/email/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "account_emailaddress" does not exist
+LINE 1: SELECT 1 AS "a" FROM "account_emailaddress" WHERE ("account_...
+                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/decorators.py", line 12, in wrap
+    resp = function(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/account/views.py", line 360, in dispatch
+    flows.manage_email.sync_user_email_address(request.user)
+  File "/usr/local/lib/python3.12/site-packages/allauth/account/internal/flows/manage_email.py", line 241, in sync_user_email_address
+    return sync_email_address(user, email)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/allauth/account/internal/flows/manage_email.py", line 246, in sync_email_address
+    if not EmailAddress.objects.filter(user_id=user.pk, email=email).exists():
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 1288, in exists
+    return self.query.has_results(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/query.py", line 660, in has_results
+    return compiler.has_results()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1542, in has_results
+    return bool(self.execute_sql(SINGLE))
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "account_emailaddress" does not exist
+LINE 1: SELECT 1 AS "a" FROM "account_emailaddress" WHERE ("account_...
+                             ^
+
+[2025-10-26 20:43:45,244] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 20:43:45,246] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 20:43:45,244] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 20:43:45,246] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 20:43:45,249] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 20:43:45,252] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-10-26 20:43:45,252] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:43:45,249] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 20:43:45,253] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:43:45,252] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-10-26 20:43:45,252] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:43:45,253] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:43:45,270] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 20:43:45,270] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 20:43:56,216] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 20:43:56,217] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 20:43:56,218] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 20:43:56,216] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 20:43:56,217] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 20:43:56,218] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 20:43:56,222] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-10-26 20:43:56,222] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:43:56,222] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-10-26 20:43:56,225] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:43:56,222] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:43:56,225] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:43:56,244] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 20:43:56,244] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 20:43:58,997] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:43:58,997] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:43:58,999] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 20:43:59,000] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:43:59,000] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 20:43:59,000] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 20:43:59,001] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-10-26 20:43:58,999] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 20:43:59,000] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:43:59,000] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 20:43:59,000] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 20:43:59,001] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-10-26 20:43:59,041] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:43:59,041] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:43:59,041] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 20:43:59,041] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:43:59,041] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:43:59,041] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 20:44:03,910] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-10-26 20:44:03,911] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 20:44:03,911] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 20:44:03,911] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:44:03,911] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:44:03,910] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-10-26 20:44:03,912] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 20:44:03,911] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 20:44:03,911] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 20:44:03,911] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:44:03,911] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:44:03,912] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 20:44:03,953] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 20:44:03,953] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 20:44:03,963] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-10-26 20:44:03,965] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:44:03,963] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-10-26 20:44:03,965] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:44:03,967] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:44:03,967] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:44:07,750] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 20:44:07,750] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 20:44:07,753] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 20:44:07,753] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-10-26 20:44:07,753] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 20:44:07,755] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:44:07,756] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:44:07,753] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-10-26 20:44:07,753] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 20:44:07,753] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 20:44:07,755] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:44:07,756] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:44:07,783] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 20:44:07,783] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-10-26 20:44:07,783] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 20:44:07,783] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-10-26 20:44:12,930] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 20:44:12,930] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 20:44:12,933] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:44:12,935] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 20:44:12,933] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:44:12,935] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 20:44:12,938] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:44:12,939] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 20:44:12,939] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-10-26 20:44:12,938] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:44:12,939] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 20:44:12,939] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-10-26 20:44:12,975] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:44:12,976] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:44:12,975] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:44:12,976] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 20:44:12,976] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:44:12,976] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 20:44:17,787] WARNING django.request - Not Found: /static/admin/css/forms.css
+[2025-10-26 20:44:17,787] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 20:44:17,788] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 20:44:17,789] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 20:44:17,789] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:44:17,787] WARNING django.request - Not Found: /static/admin/css/forms.css
+[2025-10-26 20:44:17,787] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-10-26 20:44:17,788] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-10-26 20:44:17,789] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-10-26 20:44:17,789] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-10-26 20:44:17,847] WARNING django.request - Not Found: /static/admin/js/jquery.init.js
+[2025-10-26 20:44:17,848] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:44:17,847] WARNING django.request - Not Found: /static/admin/js/jquery.init.js
+[2025-10-26 20:44:17,849] WARNING django.request - Not Found: /static/admin/js/actions.js
+[2025-10-26 20:44:17,848] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:44:17,851] WARNING django.request - Not Found: /static/admin/js/vendor/jquery/jquery.js
+[2025-10-26 20:44:17,851] WARNING django.request - Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+[2025-10-26 20:44:17,853] WARNING django.request - Not Found: /static/admin/js/core.js
+[2025-10-26 20:44:17,849] WARNING django.request - Not Found: /static/admin/js/actions.js
+[2025-10-26 20:44:17,851] WARNING django.request - Not Found: /static/admin/js/vendor/jquery/jquery.js
+[2025-10-26 20:44:17,851] WARNING django.request - Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+[2025-10-26 20:44:17,853] WARNING django.request - Not Found: /static/admin/js/core.js
+[2025-10-26 20:44:17,894] WARNING django.request - Not Found: /static/admin/css/forms.css
+[2025-10-26 20:44:17,894] WARNING django.request - Not Found: /static/admin/css/forms.css
+[2025-10-26 20:44:17,905] WARNING django.request - Not Found: /static/admin/js/urlify.js
+[2025-10-26 20:44:17,905] WARNING django.request - Not Found: /static/admin/js/urlify.js
+[2025-10-26 20:44:17,907] WARNING django.request - Not Found: /static/admin/js/prepopulate.js
+[2025-10-26 20:44:17,907] WARNING django.request - Not Found: /static/admin/js/prepopulate.js
+[2025-10-26 20:44:17,909] WARNING django.request - Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+[2025-10-26 20:44:17,909] WARNING django.request - Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+[2025-10-26 20:44:17,910] WARNING django.request - Not Found: /static/admin/js/prepopulate_init.js
+[2025-10-26 20:44:17,910] WARNING django.request - Not Found: /static/admin/js/prepopulate_init.js
+[2025-10-26 20:44:17,947] WARNING django.request - Not Found: /static/admin/js/change_form.js
+[2025-10-26 20:44:17,948] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 20:44:17,947] WARNING django.request - Not Found: /static/admin/js/change_form.js
+[2025-10-26 20:44:17,949] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-10-26 20:44:17,948] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-10-26 20:44:17,949] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-11-01 21:23:22,099] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-11-01 21:23:22,099] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-11-01 21:23:22,128] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-11-01 21:23:22,128] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-11-01 21:23:22,147] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-11-01 21:23:22,147] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-11-01 21:23:22,152] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-11-01 21:23:22,152] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-11-01 21:23:22,154] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-11-01 21:23:22,154] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-11-01 21:23:22,156] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-11-01 21:23:22,156] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-11-01 21:23:22,173] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-11-01 21:23:22,173] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-11-01 21:23:22,230] WARNING django.request - Not Found: /favicon.ico
+[2025-11-01 21:23:22,230] WARNING django.request - Not Found: /favicon.ico
+[2025-11-01 21:24:38,050] WARNING django.request - Not Found: /api/
+[2025-11-01 21:24:38,050] WARNING django.request - Not Found: /api/
+[2025-11-01 21:49:09,214] ERROR django - Unhandled exception in API
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/ninja/operation.py", line 212, in _run_authentication
+    result = callback(request)
+             ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/ninja/security/http.py", line 38, in __call__
+    return self.authenticate(request, token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apiapp/auth.py", line 14, in authenticate
+    server_url=settings.KEYCLOAK_SERVER_URL,
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/conf/__init__.py", line 83, in __getattr__
+    val = getattr(_wrapped, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Settings' object has no attribute 'KEYCLOAK_SERVER_URL'
+[2025-11-01 21:49:09,214] ERROR django - Unhandled exception in API
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/ninja/operation.py", line 212, in _run_authentication
+    result = callback(request)
+             ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/ninja/security/http.py", line 38, in __call__
+    return self.authenticate(request, token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apiapp/auth.py", line 14, in authenticate
+    server_url=settings.KEYCLOAK_SERVER_URL,
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/conf/__init__.py", line 83, in __getattr__
+    val = getattr(_wrapped, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Settings' object has no attribute 'KEYCLOAK_SERVER_URL'
+[2025-11-01 21:49:09,230] ERROR django.request - Internal Server Error: /api/recipes/
+[2025-11-01 21:49:09,230] ERROR django.request - Internal Server Error: /api/recipes/
+[2025-11-01 21:49:57,459] ERROR django - Unhandled exception in API
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/ninja/operation.py", line 212, in _run_authentication
+    result = callback(request)
+             ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/ninja/security/http.py", line 38, in __call__
+    return self.authenticate(request, token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apiapp/auth.py", line 14, in authenticate
+    server_url=settings.KEYCLOAK_SERVER_URL,
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/conf/__init__.py", line 83, in __getattr__
+    val = getattr(_wrapped, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Settings' object has no attribute 'KEYCLOAK_SERVER_URL'
+[2025-11-01 21:49:57,459] ERROR django - Unhandled exception in API
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/ninja/operation.py", line 212, in _run_authentication
+    result = callback(request)
+             ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/ninja/security/http.py", line 38, in __call__
+    return self.authenticate(request, token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apiapp/auth.py", line 14, in authenticate
+    server_url=settings.KEYCLOAK_SERVER_URL,
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/conf/__init__.py", line 83, in __getattr__
+    val = getattr(_wrapped, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Settings' object has no attribute 'KEYCLOAK_SERVER_URL'
+[2025-11-01 21:49:57,473] ERROR django.request - Internal Server Error: /api/recipes/
+[2025-11-01 21:49:57,473] ERROR django.request - Internal Server Error: /api/recipes/
+[2025-11-01 21:50:20,163] ERROR django - Unhandled exception in API
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/ninja/operation.py", line 212, in _run_authentication
+    result = callback(request)
+             ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/ninja/security/http.py", line 38, in __call__
+    return self.authenticate(request, token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apiapp/auth.py", line 14, in authenticate
+    server_url=settings.KEYCLOAK_SERVER_URL,
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/conf/__init__.py", line 83, in __getattr__
+    val = getattr(_wrapped, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Settings' object has no attribute 'KEYCLOAK_SERVER_URL'
+[2025-11-01 21:50:20,163] ERROR django - Unhandled exception in API
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/ninja/operation.py", line 212, in _run_authentication
+    result = callback(request)
+             ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/ninja/security/http.py", line 38, in __call__
+    return self.authenticate(request, token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apiapp/auth.py", line 14, in authenticate
+    server_url=settings.KEYCLOAK_SERVER_URL,
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/conf/__init__.py", line 83, in __getattr__
+    val = getattr(_wrapped, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Settings' object has no attribute 'KEYCLOAK_SERVER_URL'
+[2025-11-01 21:50:20,180] ERROR django.request - Internal Server Error: /api/recipes/
+[2025-11-01 21:50:20,180] ERROR django.request - Internal Server Error: /api/recipes/
+[2025-11-01 21:56:12,318] ERROR django - Unhandled exception in API
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/ninja/operation.py", line 212, in _run_authentication
+    result = callback(request)
+             ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/ninja/security/http.py", line 38, in __call__
+    return self.authenticate(request, token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apiapp/auth.py", line 16, in authenticate
+    realm_name=settings.KEYCLOAK_REALM,
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/conf/__init__.py", line 83, in __getattr__
+    val = getattr(_wrapped, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Settings' object has no attribute 'KEYCLOAK_REALM'
+[2025-11-01 21:56:12,318] ERROR django - Unhandled exception in API
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/ninja/operation.py", line 212, in _run_authentication
+    result = callback(request)
+             ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/ninja/security/http.py", line 38, in __call__
+    return self.authenticate(request, token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apiapp/auth.py", line 16, in authenticate
+    realm_name=settings.KEYCLOAK_REALM,
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/conf/__init__.py", line 83, in __getattr__
+    val = getattr(_wrapped, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Settings' object has no attribute 'KEYCLOAK_REALM'
+[2025-11-01 21:56:12,332] ERROR django.request - Internal Server Error: /api/recipes/
+[2025-11-01 21:56:12,332] ERROR django.request - Internal Server Error: /api/recipes/
+[2025-11-01 21:56:44,009] ERROR django - Unhandled exception in API
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/ninja/operation.py", line 212, in _run_authentication
+    result = callback(request)
+             ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/ninja/security/http.py", line 38, in __call__
+    return self.authenticate(request, token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apiapp/auth.py", line 16, in authenticate
+    realm_name=settings.KEYCLOAK_REALM,
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/conf/__init__.py", line 83, in __getattr__
+    val = getattr(_wrapped, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Settings' object has no attribute 'KEYCLOAK_REALM'
+[2025-11-01 21:56:44,009] ERROR django - Unhandled exception in API
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/ninja/operation.py", line 212, in _run_authentication
+    result = callback(request)
+             ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/ninja/security/http.py", line 38, in __call__
+    return self.authenticate(request, token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apiapp/auth.py", line 16, in authenticate
+    realm_name=settings.KEYCLOAK_REALM,
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/conf/__init__.py", line 83, in __getattr__
+    val = getattr(_wrapped, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Settings' object has no attribute 'KEYCLOAK_REALM'
+[2025-11-01 21:56:44,053] ERROR django.request - Internal Server Error: /api/recipes/
+[2025-11-01 21:56:44,053] ERROR django.request - Internal Server Error: /api/recipes/
+[2025-11-01 22:00:07,422] WARNING urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7539e5214ef0>: Failed to establish a new connection: [Errno 111] Connection refused')': /realms/test-meal/.well-known/realms/test-meal/protocol/openid-connect/userinfo
+[2025-11-01 22:00:07,426] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-01 22:00:07,426] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-01 22:00:30,542] WARNING urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7539e5164cb0>: Failed to establish a new connection: [Errno 111] Connection refused')': /realms/test-meal/.well-known/realms/test-meal/protocol/openid-connect/userinfo
+[2025-11-01 22:00:30,546] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-01 22:00:30,546] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-01 23:02:25,761] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-11-01 23:02:25,761] INFO django.utils.autoreload - Watching for file changes with StatReloader
+[2025-11-01 22:07:39,770] WARNING urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7291a31a4b60>: Failed to establish a new connection: [Errno 111] Connection refused')': /realms/test-meal/.well-known/realms/test-meal/protocol/openid-connect/userinfo
+[2025-11-01 22:07:39,775] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-01 22:07:39,775] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-01 22:10:02,720] WARNING urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7291a3264ad0>: Failed to establish a new connection: [Errno 111] Connection refused')': /realms/test-meal/.well-known/realms/test-meal/protocol/openid-connect/userinfo
+[2025-11-01 22:10:02,725] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-01 22:10:02,725] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-01 22:11:11,642] WARNING urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7291aa320ad0>: Failed to establish a new connection: [Errno 111] Connection refused')': /realms/test-meal/.well-known/realms/test-meal/protocol/openid-connect/userinfo
+[2025-11-01 22:11:11,647] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-01 22:11:11,647] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-01 22:15:45,584] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-01 22:15:45,584] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-01 22:17:42,657] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-01 22:17:42,657] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-01 22:20:43,632] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-01 22:20:43,632] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-01 22:21:25,060] ERROR django - Unhandled exception in API
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/jwt/api_jws.py", line 270, in _load
+    header_segment, payload_segment = signing_input.split(b".", 1)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 1)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/ninja/operation.py", line 212, in _run_authentication
+    result = callback(request)
+             ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/ninja/security/http.py", line 38, in __call__
+    return self.authenticate(request, token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apiapp/auth.py", line 12, in authenticate
+    decoded = jwt.decode(token, options={"verify_signature": False})
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/jwt/api_jwt.py", line 222, in decode
+    decoded = self.decode_complete(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/jwt/api_jwt.py", line 156, in decode_complete
+    decoded = api_jws.decode_complete(
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/jwt/api_jws.py", line 209, in decode_complete
+    payload, signing_input, header, signature = self._load(jwt)
+                                                ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/jwt/api_jws.py", line 272, in _load
+    raise DecodeError("Not enough segments") from err
+jwt.exceptions.DecodeError: Not enough segments
+[2025-11-01 22:21:25,060] ERROR django - Unhandled exception in API
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/jwt/api_jws.py", line 270, in _load
+    header_segment, payload_segment = signing_input.split(b".", 1)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 1)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/ninja/operation.py", line 212, in _run_authentication
+    result = callback(request)
+             ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/ninja/security/http.py", line 38, in __call__
+    return self.authenticate(request, token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apiapp/auth.py", line 12, in authenticate
+    decoded = jwt.decode(token, options={"verify_signature": False})
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/jwt/api_jwt.py", line 222, in decode
+    decoded = self.decode_complete(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/jwt/api_jwt.py", line 156, in decode_complete
+    decoded = api_jws.decode_complete(
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/jwt/api_jws.py", line 209, in decode_complete
+    payload, signing_input, header, signature = self._load(jwt)
+                                                ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/jwt/api_jws.py", line 272, in _load
+    raise DecodeError("Not enough segments") from err
+jwt.exceptions.DecodeError: Not enough segments
+[2025-11-01 22:21:25,074] ERROR django.request - Internal Server Error: /api/recipes/
+[2025-11-01 22:21:25,074] ERROR django.request - Internal Server Error: /api/recipes/
+[2025-11-01 22:23:57,927] ERROR django - Unhandled exception in API
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/jwt/api_jws.py", line 270, in _load
+    header_segment, payload_segment = signing_input.split(b".", 1)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 1)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/ninja/operation.py", line 212, in _run_authentication
+    result = callback(request)
+             ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/ninja/security/http.py", line 38, in __call__
+    return self.authenticate(request, token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apiapp/auth.py", line 12, in authenticate
+    # decoded = jwt.decode(token, options={"verify_signature": False})
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/jwt/api_jwt.py", line 222, in decode
+    decoded = self.decode_complete(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/jwt/api_jwt.py", line 156, in decode_complete
+    decoded = api_jws.decode_complete(
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/jwt/api_jws.py", line 209, in decode_complete
+    payload, signing_input, header, signature = self._load(jwt)
+                                                ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/jwt/api_jws.py", line 272, in _load
+    raise DecodeError("Not enough segments") from err
+jwt.exceptions.DecodeError: Not enough segments
+[2025-11-01 22:23:57,927] ERROR django - Unhandled exception in API
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/jwt/api_jws.py", line 270, in _load
+    header_segment, payload_segment = signing_input.split(b".", 1)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 1)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/ninja/operation.py", line 212, in _run_authentication
+    result = callback(request)
+             ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/ninja/security/http.py", line 38, in __call__
+    return self.authenticate(request, token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apiapp/auth.py", line 12, in authenticate
+    # decoded = jwt.decode(token, options={"verify_signature": False})
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/jwt/api_jwt.py", line 222, in decode
+    decoded = self.decode_complete(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/jwt/api_jwt.py", line 156, in decode_complete
+    decoded = api_jws.decode_complete(
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/jwt/api_jws.py", line 209, in decode_complete
+    payload, signing_input, header, signature = self._load(jwt)
+                                                ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/jwt/api_jws.py", line 272, in _load
+    raise DecodeError("Not enough segments") from err
+jwt.exceptions.DecodeError: Not enough segments
+[2025-11-01 22:23:57,952] ERROR django.request - Internal Server Error: /api/recipes/
+[2025-11-01 22:23:57,952] ERROR django.request - Internal Server Error: /api/recipes/
+[2025-11-01 22:24:46,219] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-01 22:24:46,219] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-01 22:39:27,154] ERROR django - Unhandled exception in API
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/requests/models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/decoder.py", line 356, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/ninja/operation.py", line 212, in _run_authentication
+    result = callback(request)
+             ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/ninja/security/http.py", line 38, in __call__
+    return self.authenticate(request, token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apiapp/auth.py", line 16, in authenticate
+    jwks = requests.get(JWKS_URL).json()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2025-11-01 22:39:27,154] ERROR django - Unhandled exception in API
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/requests/models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/decoder.py", line 356, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/ninja/operation.py", line 212, in _run_authentication
+    result = callback(request)
+             ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/ninja/security/http.py", line 38, in __call__
+    return self.authenticate(request, token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apiapp/auth.py", line 16, in authenticate
+    jwks = requests.get(JWKS_URL).json()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2025-11-01 22:39:27,169] ERROR django.request - Internal Server Error: /api/recipes/
+[2025-11-01 22:39:27,169] ERROR django.request - Internal Server Error: /api/recipes/
+[2025-11-01 22:44:21,747] ERROR django - Unhandled exception in API
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/requests/models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/decoder.py", line 356, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/ninja/operation.py", line 212, in _run_authentication
+    result = callback(request)
+             ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/ninja/security/http.py", line 38, in __call__
+    return self.authenticate(request, token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apiapp/auth.py", line 16, in authenticate
+    jwks = requests.get(KEYCLOAK_JWKS_URL).json()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2025-11-01 22:44:21,747] ERROR django - Unhandled exception in API
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/requests/models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/decoder.py", line 356, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/ninja/operation.py", line 212, in _run_authentication
+    result = callback(request)
+             ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/ninja/security/http.py", line 38, in __call__
+    return self.authenticate(request, token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apiapp/auth.py", line 16, in authenticate
+    jwks = requests.get(KEYCLOAK_JWKS_URL).json()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2025-11-01 22:44:21,764] ERROR django.request - Internal Server Error: /api/recipes/
+[2025-11-01 22:44:21,764] ERROR django.request - Internal Server Error: /api/recipes/
+[2025-11-02 18:52:37,656] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-02 18:52:37,656] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-02 18:53:55,561] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-02 18:53:55,561] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-02 18:55:13,148] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-02 18:55:13,148] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-02 18:58:07,152] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-02 18:58:07,152] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-02 19:05:42,960] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-02 19:05:42,960] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-02 19:44:39,795] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-11-02 19:44:39,795] WARNING django.request - Not Found: /static/admin/css/base.css
+[2025-11-02 19:44:39,802] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-11-02 19:44:39,802] WARNING django.request - Not Found: /static/admin/css/dark_mode.css
+[2025-11-02 19:44:39,805] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-11-02 19:44:39,806] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-11-02 19:44:39,805] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-11-02 19:44:39,806] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-11-02 19:44:39,809] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-11-02 19:44:39,809] WARNING django.request - Not Found: /static/admin/js/theme.js
+[2025-11-02 19:44:39,818] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-11-02 19:44:39,818] WARNING django.request - Not Found: /static/admin/css/dashboard.css
+[2025-11-02 19:44:39,857] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-11-02 19:44:39,857] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-11-02 19:44:39,857] WARNING django.request - Not Found: /static/admin/css/nav_sidebar.css
+[2025-11-02 19:44:39,858] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-11-02 19:44:39,857] WARNING django.request - Not Found: /static/admin/js/nav_sidebar.js
+[2025-11-02 19:44:39,858] WARNING django.request - Not Found: /static/admin/css/responsive.css
+[2025-11-02 19:44:39,921] WARNING django.request - Not Found: /favicon.ico
+[2025-11-02 19:44:39,921] WARNING django.request - Not Found: /favicon.ico
+[2025-11-02 19:44:56,823] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-02 19:44:56,823] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-02 19:45:31,018] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-02 19:45:31,018] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-02 19:45:34,002] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-02 19:45:34,002] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-02 19:45:46,814] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-02 19:45:46,814] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-03 21:41:34,126] WARNING apiapp.auth - Keycloak authentication failed: 404: b'{"error":"HTTP 404 Not Found"}'
+[2025-11-03 21:41:34,133] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-03 21:41:34,133] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-03 21:44:49,158] WARNING apiapp.auth - Keycloak authentication failed: 404: b'{"error":"HTTP 404 Not Found"}'
+[2025-11-03 21:44:49,165] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-03 21:44:49,165] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-03 21:45:29,963] WARNING apiapp.auth - Keycloak authentication failed: Expecting value: line 1 column 1 (char 0)
+[2025-11-03 21:45:29,971] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-03 21:45:29,971] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-03 21:46:02,123] WARNING apiapp.auth - Keycloak authentication failed: 'keys'
+[2025-11-03 21:46:02,129] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-03 21:46:02,129] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-03 21:51:09,018] WARNING apiapp.auth - Keycloak authentication failed: Expecting value: line 1 column 1 (char 0)
+[2025-11-03 21:51:09,027] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-03 21:51:09,027] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-03 21:52:40,934] WARNING apiapp.auth - Keycloak authentication failed: Not enough segments
+[2025-11-03 21:52:40,940] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-03 21:52:40,940] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-03 21:55:32,356] WARNING apiapp.auth - Keycloak authentication failed: Invalid issuer
+[2025-11-03 21:55:32,362] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-03 21:55:32,362] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-03 22:05:12,673] WARNING apiapp.auth - Keycloak authentication failed: Signature has expired
+[2025-11-03 22:05:12,682] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-03 22:05:12,682] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-03 22:06:03,796] WARNING apiapp.auth - Keycloak authentication failed: Not enough segments
+[2025-11-03 22:06:03,803] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-03 22:06:03,803] WARNING django.request - Unauthorized: /api/recipes/
+[2025-11-03 22:07:06,298] WARNING apiapp.utils.utils - API Warning: Error creating recipe | Details: 'UserProfile' object has no attribute 'get'
+[2025-11-03 22:07:06,301] ERROR django.request - Internal Server Error: /api/recipes/
+[2025-11-03 22:07:06,301] ERROR django.request - Internal Server Error: /api/recipes/
+[2025-11-03 22:07:21,553] WARNING apiapp.utils.utils - API Warning: Error creating recipe | Details: 'UserProfile' object has no attribute 'get'
+[2025-11-03 22:07:21,557] ERROR django.request - Internal Server Error: /api/recipes/
+[2025-11-03 22:07:21,557] ERROR django.request - Internal Server Error: /api/recipes/
+[2025-11-03 22:07:40,478] WARNING apiapp.utils.utils - API Warning: Error creating recipe | Details: 'UserProfile' object has no attribute 'get'
+[2025-11-03 22:07:40,481] ERROR django.request - Internal Server Error: /api/recipes/
+[2025-11-03 22:07:40,481] ERROR django.request - Internal Server Error: /api/recipes/

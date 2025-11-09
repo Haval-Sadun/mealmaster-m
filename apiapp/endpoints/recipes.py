@@ -39,22 +39,13 @@ def recipe_to_schema(request, recipe):
             image_to_schema(request, i) for i in recipe.images.all() 
             ]
     )
-        #     ImageRead(
-        #         id=i.id,
-        #         filename=i.filename,
-        #         content_type=i.content_type,
-        #         size=i.size,
-        #         url=request.build_absolute_uri(f"/api/images/{i.id}/raw/"),
-        #         thumbnail_url=request.build_absolute_uri(f"/api/images/{i.id}/thumb/") if i.thumbnail else None,
-        #     )
-        #     for i in recipe.images.all()
-        # ]
 
 #------------ Recipe CRUD --------------------
 @router.post("/", response={201: APISuccess, 400: APIError, 500: APIError},auth=KeycloakBearer())
 def create_recipe(request, data: RecipeCreate):
     try:
         user: UserProfile = request.auth
+        print("user_id:",user.id)
         print("User roles:", user.role, "User:", user.username)
 
         recipe = Recipe.objects.create(**data.dict(exclude={"ingredients", "images"}))

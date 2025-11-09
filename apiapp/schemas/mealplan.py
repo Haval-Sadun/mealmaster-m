@@ -1,27 +1,30 @@
 from ninja import Schema
-from datetime import date
 from typing import List, Optional
-from .mealplanentry import MealPlanEntryRead, MealPlanEntryCreate
+from .mealplanentry import MealPlanEntryRead
+from uuid import UUID
+from datetime import datetime
+
+
 
 class MealPlanBase(Schema):
-    start_date: date
-    end_date: date
     active: Optional[bool] = True
 
+
+class MealPlanUpdate(MealPlanBase):
+    recipe_ids: Optional[List[int]] = None
+    # optional: change active status
+
+
 class MealPlanRead(MealPlanBase):
-    id: int
+    id: UUID
+    user_id: UUID
+    created_at: datetime
+    recipes: List[int]  
     entries: List[MealPlanEntryRead]
 
     class Config:
         from_attributes = True
 
-class MealPlanCreate(MealPlanBase):
-    entries: Optional[List[MealPlanEntryCreate]] = None
-
-class MealPlanUpdate(Schema):
-    start_date: Optional[date] = None
-    end_date: Optional[date] = None
-    active: Optional[bool] = None
-
-    class Config:
-        from_attributes = True
+class AddRecipeToMealPlan(MealPlanBase):
+    recipe_id: int
+    number_of_people:int
